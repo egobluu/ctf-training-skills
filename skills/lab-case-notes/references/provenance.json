@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-09-06",
+  "sources": [
+    {
+      "path": "C:\\Users\\rapii\\Documents\\Codex\\2026-07-29\\files-mentioned-by-the-user-ctf\\outputs\\writeup.md",
+      "sha256": "e3cb5de06ef5fd6ea26026dd09e209c4917a94b5de39c608c8090d41741f3558",
+      "platform_acceptance": "not verified"
+    },
+    {
+      "path": "C:\\Users\\rapii\\Documents\\Codex\\2026-08-01\\1-scammer-s-100-0-0\\outputs\\writeup-1-scammers.md",
+      "sha256": "b564c74a6fe70f77680e78b46d2a3408fdf8b106e4746d9a71eb14494dd59f2e",
+      "platform_acceptance": "not verified"
+    }
+  ],
+  "gate": {
+    "decision": "allow",
+    "checked": [
+      "SKILL.md",
+      "Both reference notes",
+      "Source attribution and evidence labels"
+    ],
+    "mitigations": [
+      "Documentation only; no scripts or network calls",
+      "No operational exploit procedure or embedded secret",
+      "No automatic solve or skill-per-challenge proliferation"
+    ],
+    "installation": "Installed 2026-09-06 in shared library; discovery junction C:/Users/rapii/.agents/skills/lab-case-notes; quick_validate passed"
+  }
+}
