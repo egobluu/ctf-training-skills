@@ -22,3 +22,11 @@ After a confirmed solve, use `ctf-writeup-builder` to create a reproducible writ
 ## Notes
 
 This repository is a curated export for learning. Review each skill and its provenance before deploying it in another agent environment. The canonical local library remains the source of truth for the user's configured agents.
+
+## Extended practice pack
+
+The `skills/extended/ljagiello-ctf-skills/` directory adds category-level practice material for pwn, reverse engineering (including Android/native RE topics), crypto, forensics, malware, misc, OSINT, AI/ML, and write-ups. It is kept under an extended namespace to avoid routing collisions and context bloat.
+
+Source reviewed: `https://github.com/ljagiello/ctf-skills` at commit `36c72e53a96a035791821caff7440882ea0f5c57`.
+
+The `verialabs/ctf-agent` runtime was reviewed but intentionally not copied: it is an autonomous multi-model CTFd solver that requires provider keys, Docker, and external CTFd access. We retained its high-level ideas as reference only, not as an automatic execution loop.
